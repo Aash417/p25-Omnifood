@@ -224,7 +224,6 @@ header {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
 .step-img-box::before {
 	width: 60%;
 	padding-bottom: 60%;
@@ -243,7 +242,6 @@ header {
 }
 
 /* Meals section  */
-
 .section-meals {
 	padding: 9.6rem 0;
 }
@@ -454,7 +452,7 @@ header {
 
 /* CTA section  */
 .section-cta {
-	padding: 9.6rem 0;
+	padding: 4.8rem 0 12.8rem;
 }
 .cta {
 	display: grid;
@@ -477,7 +475,6 @@ header {
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
-
 .cta-img-box {
 	background-image: linear-gradient(
 			to right bottom,
@@ -495,7 +492,6 @@ header {
 	row-gap: 2.4rem;
 	padding: 4.8rem 0;
 }
-
 .cta-form label {
 	display: block;
 	font-size: 1.4rem;
@@ -517,4 +513,65 @@ header {
 .cta *:focus {
 	outline: none;
 	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/* Footer  */
+.footer {
+	padding: 9.6rem 0;
+	border: 1px solid #eee;
+}
+.grid--footer {
+	grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.footer-logo {
+	display: block;
+	margin-bottom: 3.2rem;
+}
+.logo-col {
+	display: flex;
+	flex-direction: column;
+}
+.social-links {
+	list-style: none;
+	display: flex;
+	gap: 2.4rem;
+}
+.social-icon {
+	height: 2.4rem;
+	width: 2.4rem;
+	color: #767676;
+}
+.copyright {
+	font-size: 1.4rem;
+	color: #767676;
+	margin-top: auto;
+}
+.footer-heading {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-bottom: 3.2rem;
+}
+.contacts {
+	font-size: 1.6rem;
+	font-style: normal;
+	line-height: 1.6;
+}
+.address {
+	margin-bottom: 2.4rem;
+}
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+	list-style: none;
+}
+.footer-link:link,
+.footer-link:visited {
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: #767676;
+}
+.footer-link:hover,
+.footer-link:active {
+	color: #555;
 }
